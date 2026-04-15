@@ -1,7 +1,7 @@
 {
-  "name": "number-lookup-backend",
+  "name": "number-lookup",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Number Lookup API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,8 +10,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "nanoid": "^5.0.4",
-    "pino": "^8.14.1",
-    "pino-pretty": "^10.2.0"
+    "node-fetch": "^2.7.0"
   }
 }
