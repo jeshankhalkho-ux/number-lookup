@@ -5,8 +5,7 @@ router.get("/lookup", async (req, res) => {
     const url = "https://numberimfo.vishalboss.sbs/api.php?number=" + number + "&key=vishal_434b2cfd059a";
     const data = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0",
-        "Accept": "application/json"
+        "Origin": "https://number-lookup.onrender.com"
       }
     }).then(r => r.json());
     res.json(data);
