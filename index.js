@@ -1,3 +1,8 @@
+const { Router } = require("express");
+const { nanoid } = require("nanoid");
+const { botStore } = require("./botStore.js");
+const { sendMessage } = require("./telegram.js");
+const { logger } = require("./logger.js");
 import app from "./app.js";
 import { logger } from "./logger.js";
 import { startTelegramPolling } from "./telegramPoller.js";
